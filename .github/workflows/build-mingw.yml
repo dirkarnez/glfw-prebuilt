@@ -14,7 +14,7 @@ jobs:
       libraryName: glfw
       cmakeInstallationPath: glfw-installation
       tagName: 3.3.8
-      mingwTargetZip: box2d-${{ github.ref_name }}-mingw64-x86_64-posix-seh-rev0-8.1.0.zip
+      mingwTargetZip: glfw-${{ github.ref_name }}-mingw64-x86_64-posix-seh-rev0-8.1.0.zip
     steps:
       - name: git clone
         shell: cmd
